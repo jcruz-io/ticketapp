@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# VS Code
+.vscode/
+.vscode-server/
+.dotnet/
+*.code-workspace
+
+# Custom folders
+secrets/
