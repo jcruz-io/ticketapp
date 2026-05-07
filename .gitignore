@@ -223,5 +223,6 @@ __marimo__/
 .dotnet/
 *.code-workspace
 
-# Custom folders
+# Custom files
 secrets/
+.bash_history
