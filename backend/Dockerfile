@@ -23,7 +23,6 @@ RUN --mount=type=cache,target=/root/.cache/uv \
 FROM python:3.12-slim-trixie AS runtime
 
 RUN apt-get update && apt-get upgrade -y \
-    && apt-get install -y --no-install-recommends libpq5 \
     && rm -rf /var/lib/apt/lists/*
 
 RUN groupadd --system app \
